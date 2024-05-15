@@ -32,7 +32,7 @@ const Contact = () => {
   const handleSendMessage = () => {
     const { fullName, Email, message } = formData; // Corrected 'Email' here
     const emailBody = `Full Name: ${fullName}\nEmail: ${Email}\nMessage: ${message}`; // 
-    const email = "aniketpatil6400@gmail.com";
+    const email = "admin@krtechnologies.ltd";
     const subject = "write your subject here";
     window.location.href = `mailto:${email}?subject=${encodeURIComponent(
       subject

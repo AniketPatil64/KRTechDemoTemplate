@@ -23,7 +23,7 @@ const Page = () => {
     // Check if email is valid before sending
     if (isValidEmail) {
       // Use client-side library or API to send email
-      console.log("Sending email to aniketpatil6400@gmail.com");
+      console.log("Sending email to admin@krtechnologies.ltd");
       // Here you can integrate with your email sending service
     } else {
       alert("Please enter a valid email address.");
